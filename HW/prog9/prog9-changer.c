@@ -44,7 +44,7 @@ int main(int argc, char *argv[]) {
     int size;
     char str_buf[mes_size + 1];
     memset(str_buf, 0, mes_size + 1);
-    
+
     mknod(name1, S_IFIFO | 0666, 0);
     mknod(name2, S_IFIFO | 0666, 0);
     fd2 = 0;
