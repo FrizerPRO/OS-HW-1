@@ -34,7 +34,7 @@ void reverse_chars(char string[]) {
 const int mes_size = 5000;
 
 int main(int argc, char *argv[]) {
-    char  str_buf[mes_size] = {0};
+    char  str_buf[mes_size];
     if(argc != 3){
         printf("./prog.out read.txt write.txt\n");
         return 0;
